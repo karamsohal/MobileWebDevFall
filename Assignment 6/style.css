@@ -1,0 +1,99 @@
+body {
+    background-color: #652b67;
+    font-family: 'Montserrat', sans-serif;
+    }
+    h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: white;
+    }
+    section {
+    margin: 3em 0em;
+    }
+    button[type="submit"]{
+    width: 10px;
+    }
+    label {
+    font-size: 24px;
+    color: white;
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    width: 70%;
+    }
+    .two-column-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    }
+    input, textarea {
+    margin: 10px 0px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 0;
+    }
+    input:focus, textarea:focus {
+    outline: none;
+    }
+    /**********************
+    4. Footer Styles
+    **********************/
+    footer { 
+    background-color: rgba(255, 255, 255)
+    }
+    footer p {
+    text-align: center;
+    padding: 6px 0px;
+    }
+    /*****Tablet 601px*****/
+    @media screen and (min-width: 601px)
+    { 
+    input[type="submit"]{
+    width: 30%;
+    }
+    /* input:nth-of-type(4),
+    input:nth-of-type(5){
+        margin-left: -100%;
+    } */
+    }
+    /*****Mobile 600px*****/
+    @media only screen and (max-width: 600px) {
+    body {
+    background-color: #fad356;
+    }
+    h1 {
+    font-size: 45pt;
+    }
+    label{
+    font-size: 30pt;
+    }
+    .two-column-form {
+    display: block;
+    }
+    input {
+    padding: 9px;
+    border-radius: 5px;
+    width: 100%;
+    }
+
+    /* input:nth-of-type(4),
+    input:nth-of-type(5){
+        width: 25%;
+
+    }
+    label:nth-of-type(5),
+    label:nth-of-type(6){
+        width: 25%;
+    } */
+    label:nth-of-type(6),
+    label:nth-of-type(7),
+    label:nth-of-type(8){
+        display: inline-block;
+        width: 25%;
+    }
+    textarea{
+    width: 100%;
+    }
+    }
