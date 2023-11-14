@@ -1,0 +1,35 @@
+/* Custom Styles for Blog Website */
+
+/* Header Styles */
+.header {
+    color: #3498db; /* Bootstrap Text Color Class: primary */
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+h2{
+    font-size: 1.5em;
+}
+
+@media (max-width: 576px) {
+    /* Small screens */
+    body {
+        background-color: #f39c12 ;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    /* Medium screens */
+    body {
+        background-color: #8e44ad ;
+    }
+}
+
+@media (min-width: 993px) {
+    /* Large screens */
+    body {
+        background-color: #e67e22 ;
+    }
+}
